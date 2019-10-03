@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+		<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Ody Bien-Eugene">
+		<title> submit text </title>
+		</head>
+				<body>
+
+
+
+<h2> Send a Comment </h2>	
+						<p>From the number: 
+					<input type="text" id="txtform" size="10">
+						</p>
+
+						<p>To destinatairy: 
+					<input type="text" id="txtTo" size="10">
+						</p>
+
+					<p> Message :<br> 
+					<textArea id="TxaMessage" rows="6" size="10"> </textArea> </p>
+					<p> 
+					<button type="button" onclick="sendtxt()"> Submit</button>
+					<button type="button" onclick="clarForm ()"> Clear</button>
+					</p>
+						
+
+				</body>
+
+</html>			
